@@ -30,3 +30,9 @@ Migrate project
 Run your server on your localhost
 
 	python3 manage.py runserver
+
+## Dockarized the Application
+
+	Update the phantomsec/settings.py file. Add the IP of the host ( Public IP in case of AWS or Cloud ).
+
+	Added the dockerfile and docker-compose.yaml
